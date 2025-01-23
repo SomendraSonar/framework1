@@ -1,6 +1,6 @@
 {
   "name": "@uninone24/my-framework",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/my-framework.css",
   "scripts": {
     "build:css": "sass src/scss/main.scss dist/my-framework.css --style=compressed",
@@ -26,6 +26,7 @@
     "test": "tests"
   },
   "bin": {
-    "framework-cli": "./cli.js"
-  }
+  "framework-cli": "./bin/cli.js"
+}
+
 }
