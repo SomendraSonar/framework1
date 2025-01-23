@@ -1,6 +1,7 @@
 {
   "name": "@uninone24/my-framework",
   "version": "1.0.4",
+  
   "main": "dist/my-framework.css",
   "scripts": {
     "build:css": "sass src/scss/main.scss dist/my-framework.css --style=compressed",
@@ -18,6 +19,18 @@
     "sass": "^1.83.4"
   },
   "dependencies": {
-    "@uninone24/my-framework": "^1.0.0"
-  }
+    "@uninone24/my-framework": "^1.0.0",
+    "commander": "^13.1.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "bin": {
+  "framework-cli": "./cli.js"
 }
+  
+}
+
+
+

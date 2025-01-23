@@ -131,6 +131,46 @@
 
   <img src="placeholder.jpg" data-src="actual-image.jpg" alt="Lazy Image" loading="lazy" />
 
+
+
+
+  <div class="theme-switcher">
+    <button onclick="switchTheme('light')">Light Theme</button>
+    <button onclick="switchTheme('dark')">Dark Theme</button>
+  </div>
+  
+
+
+  <div class="grid">
+    <div class="col col-4">Column 1</div>
+    <div class="col col-4">Column 2</div>
+    <div class="col col-4">Column 3</div>
+  </div>
+  
+
+
+  <div class="fade-in">
+    <h2>Animated Section</h2>
+    <p>This section fades in when loaded.</p>
+  </div>
+
+  
+  
+
+
+
+
+  <script>
+    function switchTheme(theme) {
+      const themes = {
+        light: '--light',
+        dark: '--dark',
+      };
+  
+      document.documentElement.setAttribute('data-theme', themes[theme]);
+    }
+  </script>
+  
  
 
   
