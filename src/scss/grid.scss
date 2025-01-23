@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .col {
+    padding: 15px;
+    flex: 1;
+  }
+  
+  .col-6 {
+    flex: 0 0 50%;
+  }
+  
+  .col-4 {
+    flex: 0 0 33.33%;
+  }
+  
