@@ -14,5 +14,58 @@
       <div class="col-6">Column 2</div>
     </div>
   </div>
+  <div class="container">
+    <h2>Buttons</h2>
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-secondary">Secondary Button</button>
+    <button class="btn btn-outline-primary">Outline Button</button>
+  </div>
+  <div class="container">
+    <h2>Cards</h2>
+    <div class="card">
+      <div class="card-header">Card Header</div>
+      <div class="card-body">
+        This is the body of the card. You can add any content here.
+      </div>
+      <div class="card-footer">Card Footer</div>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Modal</h2>
+    <button class="btn btn-primary" onclick="showModal()">Open Modal</button>
+  </div>
+  
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div class="modal" id="exampleModal">
+    <h2>Modal Title</h2>
+    <p>This is the content of the modal.</p>
+    <button class="btn btn-secondary" onclick="closeModal()">Close</button>
+  </div>
+
+  <nav class="navbar">
+    <div class="navbar-brand">My Framework</div>
+    <ul class="navbar-nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  
+
+
+  
+  <script>
+    function showModal() {
+      document.getElementById('exampleModal').classList.add('modal-show');
+      document.getElementById('modalBackdrop').classList.add('modal-show');
+    }
+  
+    function closeModal() {
+      document.getElementById('exampleModal').classList.remove('modal-show');
+      document.getElementById('modalBackdrop').classList.remove('modal-show');
+    }
+  </script>
+  
 </body>
 </html>

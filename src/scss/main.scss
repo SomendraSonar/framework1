@@ -1,2 +1,7 @@
 @use './grid';
 @use './utilities';
+
+@use './components/buttons.scss';
+@use './components/cards.scss';
+@use './components/modals.scss';
+@use './components/navbar.scss';
